@@ -46,9 +46,6 @@ h6 {
   color: #999EA3;
 }
 
-.top-section {
-
-}
 
 /* --------------- Map area + Top Status Bar ------------- */
 
@@ -186,7 +183,7 @@ h6 {
 .fa-bus {
   color: white;
   font-size: 2.5em;
-  margin: 12px;
+  margin: 12.5px;
 }
 
 #buffer {
