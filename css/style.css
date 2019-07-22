@@ -2,47 +2,45 @@
   box-sizing: border-box;
 }
 
-body {
-  font-size: 10px;
-  background-color: #ffffff;
-}
 
 body {
   width: 375px;
-  font-size: 10px;
+  font-size: 62.5%;
+  background-color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: hidden;
 }
 
 h1 {
-  font-size: 2.8em;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 1.7em;
+  font-size: 1.08rem;
   font-weight: 400;
   color: #8C8C8C;
 }
 
 h4 {
-  font-size: 1.7em;
+  font-size: 1.1rem;
   font-weight: 600;
   color: 000;
 }
 
 h5 {
-  font-size: 1.3em;
+  font-size: .8rem;
   font-weight: 400;
   color: #8C8C8C;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: .625rem;
   color: #999EA3;
 }
 
@@ -58,7 +56,7 @@ h6 {
 
 #status-bar {
   background-image: url("../images/top-status-bar.png");
-  height: 25px;
+  height: 20px;
   position: absolute;
   width: inherit;
 }
@@ -67,7 +65,7 @@ h6 {
 
 #search-bar {
   width: 90%;
-  height: 10%;
+  height: 36px;
   border-radius: 8px;
   background-color: #EFEFF4;
   margin: 0 auto;
@@ -77,12 +75,12 @@ h6 {
 
 #search-icon {
   display: inline-block;
-  margin: 5px;
+  margin: 8px;
 }
 
 .fa-search, .fa-microphone {
   color: #8C8C8C;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 #where-to-search {
@@ -92,19 +90,14 @@ h6 {
 #microphone-icon {
   display: inline-block;
   float: right;
-  margin: 5px;
+  margin: 8px;
 }
 
 /* ------------ List header, name of selected stop --------------*/
 
 #my-stop-box {
-  padding: 15px;
-  border-bottom: .5px solid #D3D3D3;
-  /* background-color: pink; */
-}
-
-#current-stop-box {
-  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid #D3D3D3;
 }
 
 #current-stop-name {
@@ -113,50 +106,47 @@ h6 {
 }
 
 #pin-icon {
-  margin-right: 10px;
+  margin-right: 8px;
   display: inline-block;
 }
 
 .fa-map-pin {
   color: red;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 
 /* ------------------ List of upcoming buses ------------------*/
 
 #bus-line-container {
- height: 300px;
+ height: 320px;
  overflow: scroll;
  position: relative;
+ padding-bottom: 48px;
 }
-
 
 .line-info {
   background-color: #EFEFF4;
-  height: 20px;
-  border-bottom: .5px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
   padding: 3px 0 3px 15px;
 }
 
 .line-direction {
-  font-size: 1.3em;
+  font-size: .8rem;
   font-variant-caps: all-small-caps;
   color: #666666;
 }
 
 .bus-line-box {
   background-color: #fff;
-  height: 62px;
   margin: 0 auto;
-  border-bottom: .5px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
 }
 
 .route-number {
   display: inline-block;
   margin: 5px 30px 0 5px;
   min-width: 50px;
-  /* background-color: yellow; */
 }
 
 .route-info {
@@ -164,7 +154,7 @@ h6 {
   line-height: 2em;
   /* position: absolute; */
   vertical-align: middle;
-  padding-bottom: 10px
+  padding-bottom: 12px;
 }
 
 .stop-name {
@@ -183,11 +173,7 @@ h6 {
 .fa-bus {
   color: white;
   font-size: 2.5em;
-  margin: 12.5px;
-}
-
-#buffer {
-  margin: 20px;
+  margin: 25%;
 }
 
 /* ------------------- Lower Navigation Bar ------------*/
@@ -205,7 +191,7 @@ h6 {
 .nav-icon {
   display: inline-block;
   width: 18%;
-  margin: 3.1%;
+  margin: 3%;
   text-align: center;
 }
 
@@ -214,22 +200,22 @@ h6 {
 }
 
 .fa-user-circle{
-  font-size: 3em;
+  font-size: 2rem;
   margin: 0 0 4px 0;
 }
 
 .fa-bookmark {
-  font-size: 2.5em;
+  font-size: 1.7rem;
   margin: 0 0 10px 0;
 }
 
 .fa-share-alt {
-  font-size: 2.4em;
+  font-size: 1.7rem;
   margin: 0 0 10px 0;
 }
 
 .nav-bus {
-  font-size: 2.7em;
+  font-size: 1.8rem;
   margin: 0 0 8px 0;
 }
 
