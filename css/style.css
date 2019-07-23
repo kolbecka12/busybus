@@ -1,14 +1,30 @@
+/* need to make container parts height add up to 667px */
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
+.background {
+
+}
+
+.ui-window {
+  position: relative;
+  width: 375px;
+  background-color: white;
+  margin: auto;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 667px;
+}
 
 body {
-  width: 375px;
   font-size: 62.5%;
-  background-color: #ffffff;
+  background-color: #000;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 h1 {
@@ -49,16 +65,17 @@ h6 {
 
 #map-box {
   width: inherit;
-  height: 310px;
-  background-image: url("../images/road-map.png");
-  background-color: blue;
+  height: 275px;
+  background-image: url("../images/road-map.svg");
+  background-size: cover;
+  /* width: 100%; */
 }
 
 #status-bar {
   background-image: url("../images/top-status-bar.png");
   height: 20px;
   position: absolute;
-  width: inherit;
+  width: 100%;
 }
 
 /* --------------- Search bar ------------- */
@@ -122,7 +139,7 @@ h6 {
  height: 320px;
  overflow: scroll;
  position: relative;
- padding-bottom: 48px;
+ /* padding-bottom: 48px; */
 }
 
 .line-info {
@@ -183,9 +200,9 @@ h6 {
   background-color: #EFEFF4;
   border-top: 1px solid #D3D3D3;
   margin: 0 auto;
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  width: inherit;
+  width: 100%;
 }
 
 .nav-icon {

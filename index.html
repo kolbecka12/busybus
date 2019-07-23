@@ -8,162 +8,166 @@
     <script src="https://kit.fontawesome.com/318cdb3163.js"></script>
   </head>
   <body>
-    <div id="status-bar">
-    </div>
-    <figure id="map-box">
-      <form id="search-bar">
-          <i id="search-icon" class="fas fa-search"></i>
-          <h3 id="where-to-search">Where to?</h3>
-          <i id="microphone-icon" class="fas fa-microphone"></i>
-      </form>
-    </figure>
-    <section id="my-stop-box">
-      <h3>Upcoming Buses</h3>
-        <i id="pin-icon" class="fas fa-map-pin"></i>
-        <h2 id="current-stop-name">Washington & State</h2>
-    </section>
-    <section id="bus-line-container">
-        <section class="line-info">
-          <h3 class="line-direction">Eastbound</h3>
-        </section>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>60</h1>
-          </li>
-          <li class="route-info">
-            <h4>Randolph/Harbor Dr</h4>
-            <h5>in 5 mins, 25 mins</h5>
-          </li>
-        </ul>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>124</h1>
-          </li>
-          <li class="route-info">
-            <h4>Navy Pier</h4>
-            <h5>in 2 mins, 12 mins</h5>
-          </li>
-        </ul>
-        <section class="line-info">
-          <h3 class="line-direction">Northbound</h3>
-        </section>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>151</h1>
-          </li>
-          <li class="route-info">
-            <h4>Devon/Clark</h4>
-            <h5>in 16 mins, 32 mins</h5>
-          </li>
-        </ul>
-        <section class="line-info">
-          <h3 class="line-direction">Southbound</h3>
-        </section>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>J14</h1>
-          </li>
-          <li class="route-info">
-            <h4>103rd/Stony Island</h4>
-            <h5>in 4 mins, 19 mins</h5>
-          </li>
-        </ul>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>124</h1>
-          </li>
-          <li class="route-info">
-            <h4>Navy Pier</h4>
-            <h5>in 5 mins, 15 mins</h5>
-          </li>
-        </ul>
-        <section class="line-info">
-          <h3 class="line-direction">Reroute</h3>
-        </section>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>6X</h1>
-          </li>
-          <li class="route-info">
-            <h4>Jackson Park Express</h4>
-            <h5>N/A</h5>
-          </li>
-        </ul>
-        <div class="line-info">
-          <h3 class="line-direction">Out of Service</h3>
+    <div class="background">
+      <div class="ui-window">
+        <div id="status-bar">
         </div>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>4</h1>
-          </li>
-          <li class="route-info">
-            <h4>Cottage Grove</h4>
-            <h5>Resumes 12:10am</h5>
-          </li>
-        </ul>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>20</h1>
-          </li>
-          <li class="route-info">
-            <h4>Madison</h4>
-            <h5>Resumes 12:10am</h5>
-          </li>
-        </ul>
-        <ul class="bus-line-box">
-          <li class="bus-icon">
-            <i class="fas fa-bus"></i>
-          </li>
-          <li class="route-number">
-            <h1>157</h1>
-          </li>
-          <li class="route-info">
-            <h4>Streeterville/Taylor</h4>
-            <h5>Resumes 6:00am</h5>
-          </li>
-        </ul>
-    </section>
-    <nav class="lower-nav-box">
-      <section class="nav-icon">
-        <i class="fas fa-user-circle"></i>
-        <h6>Account</h6>
-      </section>
-      <section class="nav-icon">
-        <i class="active fas fa-bus nav-bus"></i>
-        <h6 class="active">Routes</h6>
-      </section>
-      <section class="nav-icon">
-        <i class="fas fa-bookmark"></i>
-        <h6>Saved</h6>
-      </section>
-      <section class="nav-icon">
-        <i class="fas fa-share-alt"></i>
-        <h6>Share</h6>
-      </section>
-    </nav>
+        <figure id="map-box">
+          <form id="search-bar">
+              <i id="search-icon" class="fas fa-search"></i>
+              <h3 id="where-to-search">Where to?</h3>
+              <i id="microphone-icon" class="fas fa-microphone"></i>
+          </form>
+        </figure>
+        <section id="my-stop-box">
+          <h3>Upcoming Buses</h3>
+            <i id="pin-icon" class="fas fa-map-pin"></i>
+            <h2 id="current-stop-name">Washington & State</h2>
+        </section>
+        <section id="bus-line-container">
+            <section class="line-info">
+              <h3 class="line-direction">Eastbound</h3>
+            </section>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>60</h1>
+              </li>
+              <li class="route-info">
+                <h4>Randolph/Harbor Dr</h4>
+                <h5>in 5 mins, 25 mins</h5>
+              </li>
+            </ul>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>124</h1>
+              </li>
+              <li class="route-info">
+                <h4>Navy Pier</h4>
+                <h5>in 2 mins, 12 mins</h5>
+              </li>
+            </ul>
+            <section class="line-info">
+              <h3 class="line-direction">Northbound</h3>
+            </section>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>151</h1>
+              </li>
+              <li class="route-info">
+                <h4>Devon/Clark</h4>
+                <h5>in 16 mins, 32 mins</h5>
+              </li>
+            </ul>
+            <section class="line-info">
+              <h3 class="line-direction">Southbound</h3>
+            </section>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>J14</h1>
+              </li>
+              <li class="route-info">
+                <h4>103rd/Stony Island</h4>
+                <h5>in 4 mins, 19 mins</h5>
+              </li>
+            </ul>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>124</h1>
+              </li>
+              <li class="route-info">
+                <h4>Navy Pier</h4>
+                <h5>in 5 mins, 15 mins</h5>
+              </li>
+            </ul>
+            <section class="line-info">
+              <h3 class="line-direction">Reroute</h3>
+            </section>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>6X</h1>
+              </li>
+              <li class="route-info">
+                <h4>Jackson Park Express</h4>
+                <h5>N/A</h5>
+              </li>
+            </ul>
+            <div class="line-info">
+              <h3 class="line-direction">Out of Service</h3>
+            </div>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>4</h1>
+              </li>
+              <li class="route-info">
+                <h4>Cottage Grove</h4>
+                <h5>Resumes 12:10am</h5>
+              </li>
+            </ul>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>20</h1>
+              </li>
+              <li class="route-info">
+                <h4>Madison</h4>
+                <h5>Resumes 12:10am</h5>
+              </li>
+            </ul>
+            <ul class="bus-line-box">
+              <li class="bus-icon">
+                <i class="fas fa-bus"></i>
+              </li>
+              <li class="route-number">
+                <h1>157</h1>
+              </li>
+              <li class="route-info">
+                <h4>Streeterville/Taylor</h4>
+                <h5>Resumes 6:00am</h5>
+              </li>
+            </ul>
+        </section>
+        <nav class="lower-nav-box">
+          <section class="nav-icon">
+            <i class="fas fa-user-circle"></i>
+            <h6>Account</h6>
+          </section>
+          <section class="nav-icon">
+            <i class="active fas fa-bus nav-bus"></i>
+            <h6 class="active">Routes</h6>
+          </section>
+          <section class="nav-icon">
+            <i class="fas fa-bookmark"></i>
+            <h6>Saved</h6>
+          </section>
+          <section class="nav-icon">
+            <i class="fas fa-share-alt"></i>
+            <h6>Share</h6>
+          </section>
+        </nav>
+      </div>
+    </div>
   </body>
 </html>
